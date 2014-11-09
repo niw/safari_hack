@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543BCB571A100693005D1DEB /* SFHTabViewItemAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 543BCB561A100693005D1DEB /* SFHTabViewItemAdapter.m */; };
+		543BCB5A1A100780005D1DEB /* WKView+SafariHack.m in Sources */ = {isa = PBXBuildFile; fileRef = 543BCB591A100780005D1DEB /* WKView+SafariHack.m */; };
+		543BCB5F1A1008DA005D1DEB /* Safari+SafariHack.m in Sources */ = {isa = PBXBuildFile; fileRef = 543BCB5E1A1008DA005D1DEB /* Safari+SafariHack.m */; };
+		547420011A0ED78000567F49 /* SafariHack.m in Sources */ = {isa = PBXBuildFile; fileRef = 547420001A0ED78000567F49 /* SafariHack.m */; };
+		54D7A5E91A0EF9710038AFEB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D7A5E81A0EF9710038AFEB /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		543BCB531A100603005D1DEB /* WebKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebKit.h; sourceTree = "<group>"; };
+		543BCB541A100630005D1DEB /* Safari.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Safari.h; sourceTree = "<group>"; };
+		543BCB551A100693005D1DEB /* SFHTabViewItemAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHTabViewItemAdapter.h; sourceTree = "<group>"; };
+		543BCB561A100693005D1DEB /* SFHTabViewItemAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHTabViewItemAdapter.m; sourceTree = "<group>"; };
+		543BCB581A100780005D1DEB /* WKView+SafariHack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKView+SafariHack.h"; sourceTree = "<group>"; };
+		543BCB591A100780005D1DEB /* WKView+SafariHack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKView+SafariHack.m"; sourceTree = "<group>"; };
+		543BCB5D1A1008DA005D1DEB /* Safari+SafariHack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Safari+SafariHack.h"; sourceTree = "<group>"; };
+		543BCB5E1A1008DA005D1DEB /* Safari+SafariHack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Safari+SafariHack.m"; sourceTree = "<group>"; };
+		543BCB6C1A101A02005D1DEB /* SafariHack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariHack.h; sourceTree = "<group>"; };
+		54510F6C1A0ED60E0086B75A /* SafariHack.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariHack.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		54510F701A0ED60E0086B75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547420001A0ED78000567F49 /* SafariHack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariHack.m; sourceTree = "<group>"; };
+		54D7A5E81A0EF9710038AFEB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54510F691A0ED60E0086B75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D7A5E91A0EF9710038AFEB /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54510F631A0ED60E0086B75A = {
+			isa = PBXGroup;
+			children = (
+				54510F6E1A0ED60E0086B75A /* SafariHack */,
+				54510F6D1A0ED60E0086B75A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54510F6D1A0ED60E0086B75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54510F6C1A0ED60E0086B75A /* SafariHack.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54510F6E1A0ED60E0086B75A /* SafariHack */ = {
+			isa = PBXGroup;
+			children = (
+				543BCB541A100630005D1DEB /* Safari.h */,
+				543BCB531A100603005D1DEB /* WebKit.h */,
+				543BCB5D1A1008DA005D1DEB /* Safari+SafariHack.h */,
+				543BCB5E1A1008DA005D1DEB /* Safari+SafariHack.m */,
+				543BCB581A100780005D1DEB /* WKView+SafariHack.h */,
+				543BCB591A100780005D1DEB /* WKView+SafariHack.m */,
+				543BCB551A100693005D1DEB /* SFHTabViewItemAdapter.h */,
+				543BCB561A100693005D1DEB /* SFHTabViewItemAdapter.m */,
+				543BCB6C1A101A02005D1DEB /* SafariHack.h */,
+				547420001A0ED78000567F49 /* SafariHack.m */,
+				54D7A5EA1A0EF9890038AFEB /* Frameworks */,
+				54510F6F1A0ED60E0086B75A /* Supporting Files */,
+			);
+			path = SafariHack;
+			sourceTree = "<group>";
+		};
+		54510F6F1A0ED60E0086B75A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54510F701A0ED60E0086B75A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54D7A5EA1A0EF9890038AFEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54D7A5E81A0EF9710038AFEB /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54510F6B1A0ED60E0086B75A /* SafariHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54510F731A0ED60E0086B75A /* Build configuration list for PBXNativeTarget "SafariHack" */;
+			buildPhases = (
+				54510F681A0ED60E0086B75A /* Sources */,
+				54510F691A0ED60E0086B75A /* Frameworks */,
+				54510F6A1A0ED60E0086B75A /* Resources */,
+				54741FFE1A0ED69800567F49 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariHack;
+			productName = SafariHack;
+			productReference = 54510F6C1A0ED60E0086B75A /* SafariHack.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54510F641A0ED60E0086B75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yoshimasa Niwa";
+				TargetAttributes = {
+					54510F6B1A0ED60E0086B75A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 54510F671A0ED60E0086B75A /* Build configuration list for PBXProject "SafariHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54510F631A0ED60E0086B75A;
+			productRefGroup = 54510F6D1A0ED60E0086B75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54510F6B1A0ED60E0086B75A /* SafariHack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54510F6A1A0ED60E0086B75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54741FFE1A0ED69800567F49 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TARGET_APPLICATION_BUNDLE=\"com.apple.Safari\"\n\nSIMBL_PLUGIN_DIR=\"${USER_LIBRARY_DIR}/Application Support/SIMBL/Plugins\"\n\n# Create a SIMBL plugin directoy into the sandbox container.\nmkdir -p \"${SIMBL_PLUGIN_DIR}\"\n\n# Place the product into the plugin dir.\nif [ -e \"${SIMBL_PLUGIN_DIR}/${FULL_PRODUCT_NAME}\" ]; then\n  rm -rf \"${SIMBL_PLUGIN_DIR}/${FULL_PRODUCT_NAME}\"\nfi\ncp -Rfv \"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\" \"${SIMBL_PLUGIN_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54510F681A0ED60E0086B75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543BCB5F1A1008DA005D1DEB /* Safari+SafariHack.m in Sources */,
+				547420011A0ED78000567F49 /* SafariHack.m in Sources */,
+				543BCB5A1A100780005D1DEB /* WKView+SafariHack.m in Sources */,
+				543BCB571A100693005D1DEB /* SFHTabViewItemAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54510F711A0ED60E0086B75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54510F721A0ED60E0086B75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54510F741A0ED60E0086B75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SafariHack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		54510F751A0ED60E0086B75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SafariHack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54510F671A0ED60E0086B75A /* Build configuration list for PBXProject "SafariHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54510F711A0ED60E0086B75A /* Debug */,
+				54510F721A0ED60E0086B75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54510F731A0ED60E0086B75A /* Build configuration list for PBXNativeTarget "SafariHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54510F741A0ED60E0086B75A /* Debug */,
+				54510F751A0ED60E0086B75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54510F641A0ED60E0086B75A /* Project object */;
+}
